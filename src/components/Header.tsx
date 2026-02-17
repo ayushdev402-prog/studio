@@ -10,6 +10,7 @@ const navLinks = [
   { name: "Franchise Models", href: "#models" },
   { name: "Why Choose Us", href: "#why-us" },
   { name: "Earnings", href: "#earnings" },
+  { name: "FAQ", href: "#faq" },
   { name: "Contact", href: "#contact" },
 ];
 

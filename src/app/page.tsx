@@ -9,6 +9,7 @@ import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import EarningsProjectionAssistant from '@/components/sections/EarningsProjectionAssistant';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
+import Faq from '@/components/sections/Faq';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <WhyChooseUs />
         <EarningsPotential />
         <EarningsProjectionAssistant />
+        <Faq />
         <CtaDownload />
         <Contact />
       </main>
