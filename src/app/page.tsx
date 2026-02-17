@@ -10,6 +10,8 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import EarningsProjectionAssistant from '@/components/sections/EarningsProjectionAssistant';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
 import Faq from '@/components/sections/Faq';
+import Testimonials from '@/components/sections/Testimonials';
+import SideTab from '@/components/SideTab';
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
         <WhyChooseUs />
         <EarningsPotential />
         <EarningsProjectionAssistant />
+        <Testimonials />
         <Faq />
         <CtaDownload />
         <Contact />
@@ -28,6 +31,7 @@ export default function Home() {
       <Footer />
       <ThemeSwitcher />
       <FloatingWhatsApp />
+      <SideTab />
     </div>
   );
 }

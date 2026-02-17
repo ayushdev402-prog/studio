@@ -17,6 +17,30 @@
       "description": "A delicious-looking spread of food items offered by the franchise.",
       "imageUrl": "https://images.unsplash.com/photo-1616176595988-6af8abf89ac5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zm9vZCUyMHNwcmVhZHxlbnwwfHx8fDE3NzEyNjA1Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "food spread"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Avatar for a testimonial from Rohan Sharma",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcxMzE5MTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male portrait"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Avatar for a testimonial from Priya Singh",
+      "imageUrl": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcxMzE5NzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female portrait"
+    },
+    {
+      "id": "testimonial-avatar-3",
+      "description": "Avatar for a testimonial from Amit Patel",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFsZSUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MTMxOTE5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male portrait"
+    },
+    {
+      "id": "testimonial-avatar-4",
+      "description": "Avatar for a testimonial from Sunita Verma",
+      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzEzMTk3Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female portrait"
     }
   ]
 }
