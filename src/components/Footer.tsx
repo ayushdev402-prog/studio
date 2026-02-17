@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Instagram, Facebook, Youtube, Linkedin } from "lucide-react";
+import Logo from "./Logo";
 
 const socialLinks = [
   { icon: Instagram, href: "#", name: "Instagram" },
@@ -17,11 +18,11 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-             <Link href="/" className="text-2xl font-headline font-bold text-primary">
-                Amishka
+             <Link href="/">
+                <Logo />
             </Link>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Amishka Food Service. All Rights Reserved.
+              © {currentYear} AFS - Amishka Food Service. All Rights Reserved.
             </p>
           </div>
           <div className="flex items-center gap-2">

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Instagram, Facebook, Youtube, Linkedin } from "lucide-react";
+import Logo from "./Logo";
 
 const navLinks = [
   { name: "Franchise Models", href: "#models" },
@@ -40,8 +41,8 @@ export default function Header() {
     >
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
-          <Link href="/" className="text-2xl font-headline font-bold text-primary">
-            Amishka
+          <Link href="/">
+            <Logo />
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
@@ -77,8 +78,8 @@ export default function Header() {
               <SheetContent side="right" className="w-[300px] bg-background">
                 <div className="flex h-full flex-col">
                   <div className="p-6">
-                    <Link href="/" className="text-2xl font-headline font-bold text-primary" onClick={() => setMobileMenuOpen(false)}>
-                      Amishka
+                    <Link href="/" onClick={() => setMobileMenuOpen(false)}>
+                      <Logo />
                     </Link>
                   </div>
                   <nav className="flex flex-col gap-4 px-6 mt-6">

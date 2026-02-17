@@ -4,33 +4,33 @@ import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/ca
 const benefits = [
   {
     icon: CircleDollarSign,
-    title: "Affordable Investment",
-    description: "Start your business with a setup package of just ₹51,000."
+    title: "Low Risk, High Reward",
+    description: "Start your entrepreneurial journey with an affordable setup package from just ₹51,000."
   },
   {
     icon: Award,
-    title: "100% Ownership & Profit",
-    description: "You are the sole owner of your business and you keep all the profits."
+    title: "Be Your Own Boss",
+    description: "You are the sole owner of your business and you keep 100% of the profits. We take no commission."
   },
   {
     icon: UserCheck,
-    title: "Complete Training",
-    description: "We provide 5 days of comprehensive training to get you and your staff started."
+    title: "Expert Training & Skills",
+    description: "We provide 5 days of comprehensive training for you and your staff, covering all business operations."
   },
   {
     icon: LifeBuoy,
-    title: "Ongoing Support",
-    description: "Benefit from 24x7 and monthly support for sales, menu updates, and operations."
+    title: "Partners in Your Growth",
+    description: "Benefit from our continuous support for sales, menu innovation, and operational excellence."
   },
   {
     icon: Leaf,
-    title: "Quality Ingredients",
-    description: "We provide all the necessary high-quality tea materials and ingredients for your cafe."
+    title: "Premium Quality Products",
+    description: "We provide all the necessary high-quality raw materials and secret spices for our signature chai."
   },
   {
     icon: ShieldCheck,
-    title: "Brand Recognition",
-    description: "Leverage the growing brand name and recognition of Amishka Food Service."
+    title: "Leverage a Trusted Brand",
+    description: "Gain immediate customer trust by leveraging the growing brand recognition of AFS."
   }
 ];
 
@@ -38,15 +38,19 @@ export default function WhyChooseUs() {
   return (
     <section id="why-us" className="py-20 lg:py-32">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="font-headline text-4xl md:text-5xl font-bold">The Amishka Advantage</h2>
+        <div className="text-center mb-12 animate-in fade-in slide-in-from-bottom-8 duration-700">
+          <h2 className="font-headline text-4xl md:text-5xl font-bold">The AFS Advantage</h2>
           <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
-            We're more than just a franchise; we're your partners in success. We provide the tools, support, and brand power you need to thrive.
+            We're not just a franchise; we're your dedicated partner in success. We provide the tools, support, and brand power you need to build a thriving business and create employment.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="text-center border-0 shadow-none bg-transparent">
+            <Card 
+              key={index} 
+              className="text-center border-0 shadow-none bg-transparent animate-in fade-in zoom-in-95"
+              style={{ animationDelay: `${index * 150}ms` }}
+            >
               <CardHeader>
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
                   <benefit.icon className="h-8 w-8" />

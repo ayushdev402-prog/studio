@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Amishka Food Service',
-  description: 'Start Your Own Profitable Chai Business Today',
+  title: 'AFS - Amishka Food Service',
+  description: 'Join AFS and build your own profitable food business. We provide the path to financial growth and employment.',
 };
 
 export default function RootLayout({

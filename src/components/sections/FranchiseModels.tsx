@@ -74,7 +74,7 @@ export default function FranchiseModels() {
         <div className="grid lg:grid-cols-3 gap-8 items-center justify-center">
             {franchiseModels.map((model, index) => (
                 <Card key={model.name} className={cn(
-                    "w-full max-w-sm mx-auto flex flex-col transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl",
+                    "w-full max-w-sm mx-auto flex flex-col transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl animate-in fade-in zoom-in-95",
                     model.isPopular && "lg:scale-110 lg:z-10 bg-secondary",
                     model.shadowColor
                 )}>
@@ -119,7 +119,7 @@ export default function FranchiseModels() {
 
         <div className="mt-24 lg:mt-32 text-center">
           <h3 className="font-headline text-3xl font-bold">Kaunsa Model Aapke Liye Sahi Hai?</h3>
-          <p className="mt-2 text-muted-foreground max-w-xl mx-auto">Find the perfect fit for your investment and goals.</p>
+          <p className="mt-2 text-muted-foreground max-w-xl mx-auto">Find the perfect model to start your journey towards financial independence.</p>
           <div className="mt-8 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {modelSelector.map(item => (
               <div key={item.title} className="p-6 rounded-lg border bg-card text-card-foreground">

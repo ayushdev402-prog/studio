@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
       <div className="relative z-10 flex h-full items-center">
         <div className="container mx-auto px-4 text-center text-white">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-12 duration-1000">
             <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold !leading-tight tracking-tight">
               Apna Food Business Shuru Karein – Aaj Se
             </h1>

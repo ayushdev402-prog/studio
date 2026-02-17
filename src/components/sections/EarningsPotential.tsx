@@ -30,9 +30,9 @@ export default function EarningsPotential() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="font-headline text-4xl md:text-5xl font-bold">Visualize Your Success</h2>
+            <h2 className="font-headline text-4xl md:text-5xl font-bold">Visualize Your Growth</h2>
             <p className="mt-6 text-lg text-foreground/80">
-              Our franchise model is built for profitability. See a conservative projection of your potential monthly earnings. Your drive and our support can make these numbers a reality.
+              Visualize your path to financial freedom. Our model is built for profitability. With your drive and our support, you can turn these projections into your reality and create employment opportunities in your community.
             </p>
             <p className="mt-4 text-sm text-muted-foreground italic">
               * The figures presented are estimates for our franchise model and are not a guarantee of performance. Actual results may vary based on location, management, and market conditions.
@@ -40,8 +40,8 @@ export default function EarningsPotential() {
           </div>
           <Card>
             <CardHeader>
-              <CardTitle>Amishka Franchise: Monthly Earning Example</CardTitle>
-              <CardDescription>First 6 months projection</CardDescription>
+              <CardTitle>AFS Franchise: Monthly Earning Example</CardTitle>
+              <CardDescription>First 6 months projection for the 151 Model</CardDescription>
             </CardHeader>
             <CardContent>
               <ChartContainer config={chartConfig} className="h-[300px] w-full">

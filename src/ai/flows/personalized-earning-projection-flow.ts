@@ -75,8 +75,8 @@ const prompt = ai.definePrompt({
   name: 'personalizedEarningProjectionPrompt',
   input: {schema: PersonalizedEarningProjectionInputSchema},
   output: {schema: PersonalizedEarningProjectionOutputSchema},
-  prompt: `You are an expert financial analyst specializing in food service franchise profitability.
-Your task is to generate a personalized earning projection for one of Amishka Food Service's franchise models (51, 151, or 281).
+  prompt: `You are an expert financial analyst specializing in food service franchise profitability for AFS (Amishka Food Service).
+Your task is to generate a personalized earning projection for one of AFS's franchise models (51, 151, or 281).
 Based on the user's input, provide a projection for a suitable model. If they seem to be a small investor, choose the 51 model. If they seem to be a mid-range investor, choose the 151 model. If they seem to be a large investor, choose the 281 model. The output should be an array containing a single projection object for the chosen model.
 Also, include any important notes or assumptions made for the projection.
 
