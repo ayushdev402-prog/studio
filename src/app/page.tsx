@@ -8,6 +8,7 @@ import Contact from '@/components/sections/Contact';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import EarningsProjectionAssistant from '@/components/sections/EarningsProjectionAssistant';
+import ThemeSwitcher from '@/components/ThemeSwitcher';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <ThemeSwitcher />
       <FloatingWhatsApp />
     </div>
   );
