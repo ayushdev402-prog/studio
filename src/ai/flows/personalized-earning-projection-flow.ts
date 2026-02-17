@@ -31,7 +31,7 @@ export type PersonalizedEarningProjectionInput = z.infer<
 const FranchiseModelProjectionSchema = z.object({
   modelName: z
     .string()
-    .describe('The name of the franchise model (e.g., "QuickServe Kiosk").'),
+    .describe('The name of the franchise model (e.g., "51 Franchise Model").'),
   estimatedMonthlyRevenue: z
     .number()
     .describe('The estimated monthly revenue in USD.'),
@@ -76,18 +76,15 @@ const prompt = ai.definePrompt({
   input: {schema: PersonalizedEarningProjectionInputSchema},
   output: {schema: PersonalizedEarningProjectionOutputSchema},
   prompt: `You are an expert financial analyst specializing in food service franchise profitability.
-Your task is to generate a personalized earning projection for the Amishka Food Service "mini cafe" franchise model based on the provided location and market conditions.
-The franchise model is a single package called "AFS Franchise Setup Package".
-
-Based on the following details, provide estimated monthly revenue, estimated monthly expenses, and estimated monthly profit for this model in a projection.
-The output should be an array containing a single projection object.
+Your task is to generate a personalized earning projection for one of Amishka Food Service's franchise models (51, 151, or 281).
+Based on the user's input, provide a projection for a suitable model. If they seem to be a small investor, choose the 51 model. If they seem to be a mid-range investor, choose the 151 model. If they seem to be a large investor, choose the 281 model. The output should be an array containing a single projection object for the chosen model.
 Also, include any important notes or assumptions made for the projection.
 
 Location: {{{location}}}
 Market Conditions: {{{marketConditions}}}
 
 Ensure the output is in JSON format, strictly adhering to the provided output schema.
-The modelName in the projection should be "AFS Franchise Setup Package".
+The modelName in the projection should be one of "51 Franchise Model", "151 Franchise Model", or "281 Franchise Model".
 The numbers for revenue, expenses, and profit should be realistic estimates for the food service industry in the given context.
 Include a general disclaimer that these projections are estimates and not guarantees.`,
 });
