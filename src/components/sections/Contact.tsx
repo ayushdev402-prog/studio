@@ -11,7 +11,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2 } from "lucide-react";
+import { Loader2, Mail, MapPin, Phone } from "lucide-react";
 
 const investmentBudgets = [
   "<$25,000",
@@ -63,6 +63,20 @@ export default function Contact() {
             <p className="mt-6 text-lg text-foreground/80">
               Ready to take the next step? Fill out the form and our franchise development team will get in touch with you to discuss this exciting opportunity.
             </p>
+            <div className="mt-8 space-y-4 text-foreground/90">
+              <a href="tel:9893395419" className="flex items-center gap-3 transition-colors hover:text-primary">
+                  <Phone className="h-5 w-5 text-primary"/>
+                  <span>9893395419</span>
+              </a>
+              <a href="mailto:amishkafood@gmail.com" className="flex items-center gap-3 transition-colors hover:text-primary">
+                  <Mail className="h-5 w-5 text-primary"/>
+                  <span>amishkafood@gmail.com</span>
+              </a>
+              <div className="flex items-start gap-3">
+                  <MapPin className="h-5 w-5 text-primary mt-1 shrink-0"/>
+                  <span>Head Office: Katangi Bypass Road, Jabalpur (M.P.)</span>
+              </div>
+            </div>
           </div>
           <div className="p-8 rounded-lg bg-secondary">
             <Form {...form}>

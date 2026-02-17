@@ -18,10 +18,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
              <Link href="/" className="text-2xl font-headline font-bold text-primary">
-                Amisamishka
+                Amishka
             </Link>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Amisamishka Food Service. All Rights Reserved.
+              © {currentYear} Amishka Food Service. All Rights Reserved.
             </p>
           </div>
           <div className="flex items-center gap-2">

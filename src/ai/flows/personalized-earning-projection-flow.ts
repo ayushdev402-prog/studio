@@ -76,19 +76,18 @@ const prompt = ai.definePrompt({
   input: {schema: PersonalizedEarningProjectionInputSchema},
   output: {schema: PersonalizedEarningProjectionOutputSchema},
   prompt: `You are an expert financial analyst specializing in food service franchise profitability.
-Your task is to generate personalized earning projections for three specific Amisamishka Food Service franchise models based on the provided location and market conditions.
-The three franchise models are:
-1. "QuickServe Kiosk": A small, high-volume kiosk model focused on grab-and-go items.
-2. "Cafe Express": A medium-sized cafe model offering a broader menu for dine-in and takeout.
-3. "Full-Service Restaurant": A larger establishment with a comprehensive menu and full dining experience.
+Your task is to generate a personalized earning projection for the Amishka Food Service "mini cafe" franchise model based on the provided location and market conditions.
+The franchise model is a single package called "AFS Franchise Setup Package".
 
-Based on the following details, provide estimated monthly revenue, estimated monthly expenses, and estimated monthly profit for each of these three models.
-Also, include any important notes or assumptions made for each projection.
+Based on the following details, provide estimated monthly revenue, estimated monthly expenses, and estimated monthly profit for this model in a projection.
+The output should be an array containing a single projection object.
+Also, include any important notes or assumptions made for the projection.
 
 Location: {{{location}}}
 Market Conditions: {{{marketConditions}}}
 
 Ensure the output is in JSON format, strictly adhering to the provided output schema.
+The modelName in the projection should be "AFS Franchise Setup Package".
 The numbers for revenue, expenses, and profit should be realistic estimates for the food service industry in the given context.
 Include a general disclaimer that these projections are estimates and not guarantees.`,
 });

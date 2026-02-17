@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Amisamishka Franchise Launchpad',
-  description: 'Start Your Own Profitable Food Business Today',
+  title: 'Amishka Food Service',
+  description: 'Start Your Own Profitable Chai Business Today',
 };
 
 export default function RootLayout({

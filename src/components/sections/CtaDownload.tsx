@@ -27,7 +27,7 @@ export default function CtaDownload() {
           <Button size="lg" className="bg-card text-card-foreground hover:bg-card/90" asChild>
             <a href="/brochure.pdf" download>
               <Download className="mr-2 h-5 w-5" />
-              Download Full Business Plan (PDF)
+              Download Franchise Brochure (PDF)
             </a>
           </Button>
         </div>

@@ -32,15 +32,15 @@ export default function EarningsPotential() {
           <div>
             <h2 className="font-headline text-4xl md:text-5xl font-bold">Visualize Your Success</h2>
             <p className="mt-6 text-lg text-foreground/80">
-              Our franchise models are built for profitability. See a conservative projection of your potential monthly earnings with our Cafe Express model. Your drive and our support can make these numbers a reality.
+              Our franchise model is built for profitability. See a conservative projection of your potential monthly earnings. Your drive and our support can make these numbers a reality.
             </p>
             <p className="mt-4 text-sm text-muted-foreground italic">
-              * The figures presented are estimates for a sample Cafe Express model and are not a guarantee of performance. Actual results may vary based on location, management, and market conditions.
+              * The figures presented are estimates for our franchise model and are not a guarantee of performance. Actual results may vary based on location, management, and market conditions.
             </p>
           </div>
           <Card>
             <CardHeader>
-              <CardTitle>Cafe Express: Monthly Earning Example</CardTitle>
+              <CardTitle>Amishka Franchise: Monthly Earning Example</CardTitle>
               <CardDescription>First 6 months projection</CardDescription>
             </CardHeader>
             <CardContent>

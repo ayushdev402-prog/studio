@@ -23,15 +23,15 @@ export default function Hero() {
         <div className="container mx-auto px-4 text-center md:text-left text-white">
           <div className="max-w-3xl">
             <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold !leading-tight tracking-tight">
-              Start Your Own Profitable Food Business Today
+              We Do the Setup,<br/>You Run the Business
             </h1>
             <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto md:mx-0 text-white/90">
-              Join the Amisamishka family and turn your entrepreneurial dreams into reality with our proven franchise models.
+              Join the Amishka family and turn your entrepreneurial dreams into reality with our proven franchise package.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
                 <a href="#models">
-                  View Franchise Models
+                  View Franchise Package
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>

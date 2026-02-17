@@ -10,7 +10,6 @@ const navLinks = [
   { name: "Franchise Models", href: "#models" },
   { name: "Why Choose Us", href: "#why-us" },
   { name: "Earnings", href: "#earnings" },
-  { name: "FAQ", href: "#faq" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -42,7 +41,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="text-2xl font-headline font-bold text-primary">
-            Amisamishka
+            Amishka
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
@@ -79,7 +78,7 @@ export default function Header() {
                 <div className="flex h-full flex-col">
                   <div className="p-6">
                     <Link href="/" className="text-2xl font-headline font-bold text-primary" onClick={() => setMobileMenuOpen(false)}>
-                      Amisamishka
+                      Amishka
                     </Link>
                   </div>
                   <nav className="flex flex-col gap-4 px-6 mt-6">
